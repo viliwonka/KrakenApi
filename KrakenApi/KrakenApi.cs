@@ -488,13 +488,13 @@ namespace KrakenApi
         /// <summary>
         /// Volume of order (base currency unless viqc set in oflags)
         /// </summary>
-        [JsonProperty(PropertyName = "vol ")]
+        [JsonProperty(PropertyName = "vol")]
         public decimal Volume;
 
         /// <summary>
         /// Volume executed (base currency unless viqc set in oflags)
         /// </summary>
-        [JsonProperty(PropertyName = "vol_exec ")]
+        [JsonProperty(PropertyName = "vol_exec")]
         public decimal VolumeExecuted;
 
         /// <summary>
