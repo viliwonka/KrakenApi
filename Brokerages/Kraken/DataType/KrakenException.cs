@@ -4,9 +4,9 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
-namespace KrakenApi
-{
+namespace QuantConnect.Brokerages.Kraken.DataType {
     [Serializable]
     public class KrakenException : Exception
     {
